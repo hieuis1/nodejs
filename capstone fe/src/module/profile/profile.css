@@ -1,0 +1,68 @@
+#profile {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#profile #profile-form {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+.profile-right {
+  width: 60%;
+}
+.profile-right label {
+  display: block;
+  color: #7e7c7cdd;
+  margin-bottom: 10px;
+}
+.profile-right input {
+  width: 100%;
+  padding: 5px;
+  border: 1px #cac8c8 solid;
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.img-avatar {
+  position: relative;
+}
+.camera-icon {
+  color: black;
+}
+.camera {
+  background-color: red;
+  padding: 6px;
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.btn-update {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.btn-update button {
+  color: white;
+  background-color: red;
+}
+.btn-update button:hover {
+  background-color: red;
+}
+.img-avatar {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}

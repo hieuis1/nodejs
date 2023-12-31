@@ -1,0 +1,28 @@
+#sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#sign-up #form-sign {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 30%;
+  padding: 50px;
+  border-radius: 10px;
+}
+#sign-up #form-sign h4 {
+  text-align: center;
+  font-weight: 600;
+}
+#sign-up #form-sign .p-title {
+  text-align: center;
+  font-weight: 400;
+}
+#sign-up #form-sign button {
+  background-color: rgb(202, 7, 7);
+}
+.path-login {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}

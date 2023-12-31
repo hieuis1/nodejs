@@ -1,0 +1,16 @@
+#nav-bar-header a {
+  text-decoration: none;
+  color: black;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #ccc !important;
+}
+#nav-bar-header .active {
+  color: red;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}

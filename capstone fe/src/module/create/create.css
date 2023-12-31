@@ -1,0 +1,81 @@
+#create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#create-form {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 30px;
+}
+#create-form .create-left {
+  min-height: 60vh;
+}
+
+#create-form .create-left .img-box {
+  background-color: rgb(247, 243, 243);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px #ccc dashed;
+  border-radius: 20px;
+}
+.img-box .img-icon {
+  text-align: center;
+}
+.img-icon .icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: black;
+  color: rgb(247, 243, 243);
+}
+.img-br {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.img-br p {
+  font-size: 18px;
+}
+.create-right {
+  padding: 10px;
+}
+.create-right .right-content label {
+  display: block;
+  color: #a09e9e;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.create-right .right-content input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 10px;
+  outline: none;
+}
+.create-right .right-content textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 10px;
+  outline: none;
+}
+.create-right button {
+  background-color: red;
+  border-radius: 9999px;
+  width: 100px;
+  height: 40px;
+}
+.create-right button:hover {
+  background-color: rgb(199, 9, 9);
+}
+.btn-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+}
+

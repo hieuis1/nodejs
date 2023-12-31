@@ -1,0 +1,10 @@
+#home-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+#home-content .home-content-item img {
+  width: 100%;
+  border-radius: 20px;
+}
